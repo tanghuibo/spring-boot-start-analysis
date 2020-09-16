@@ -24,6 +24,8 @@
 
 	<packaging>pom</packaging>
 	<modules>
+		<module>spring-boot-analysis-start</module>
+		<module>spring-boot-analysis-test-web</module>
 	</modules>
 
 </project>
