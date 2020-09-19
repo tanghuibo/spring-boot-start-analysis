@@ -1,6 +1,7 @@
 package io.github.tanghuibo.analysisstart.annotation;
 
 import io.github.tanghuibo.analysisstart.config.BeanInitConfig;
+import io.github.tanghuibo.analysisstart.config.UIConfig;
 import io.github.tanghuibo.analysisstart.controller.BeanStartController;
 import org.springframework.context.annotation.Import;
 
@@ -12,7 +13,8 @@ import java.lang.annotation.*;
  */
 @Import({
         BeanInitConfig.class,
-        BeanStartController.class
+        BeanStartController.class,
+        UIConfig.class
 })
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
